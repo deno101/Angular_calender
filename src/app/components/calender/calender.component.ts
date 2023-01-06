@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {UiService} from "./services/ui.service";
-import {Month} from "./interfaces";
+import {Holiday, Month} from "./interfaces";
 
 @Component({
   selector: 'app-calender',
@@ -8,7 +8,7 @@ import {Month} from "./interfaces";
   styleUrls: ['./calender.component.less']
 })
 export class CalenderComponent implements OnInit {
-  private months = {} as Month[];
+  months = {} as Month[];
 
   constructor(private uiService: UiService) {
 

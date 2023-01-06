@@ -1,1 +1,4 @@
-<p>calender works!</p>
+<div class="calender_container" *ngFor="let month of months;">
+  <div class="name">{{month.name}}</div>
+  <app-calender-grid [month]=month></app-calender-grid>
+</div>
