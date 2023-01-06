@@ -1,0 +1,15 @@
+{
+  "months": [
+    {
+      "name": "January",
+      "days": 31,
+      "start": "Sunday",
+      "holidays": [
+        {
+          "day": 1,
+          "title": "New year"
+        }
+      ]
+    }
+  ]
+}
