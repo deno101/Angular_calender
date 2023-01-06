@@ -9,7 +9,9 @@
           "day": 1,
           "title": "New year"
         }
-      ]
+      ],
+      "events": [],
+      "reminders": []
     }
   ]
 }
