@@ -3,7 +3,7 @@
     {
       "name": "January",
       "days": 31,
-      "start": "Sunday",
+      "start": "sunday", /*must be lower case*/
       "holidays": [
         {
           "day": 1,

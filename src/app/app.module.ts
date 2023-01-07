@@ -6,13 +6,15 @@ import { CalenderComponent } from './components/calender/calender.component';
 import { DayComponent } from './components/calender/day/day.component';
 import {HttpClientModule} from "@angular/common/http";
 import { CalenderGridComponent } from './components/calender/calender-grid/calender-grid.component';
+import { GridFactoryComponent } from './components/calender/calender-grid/grid-factory/grid-factory.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CalenderComponent,
     DayComponent,
-    CalenderGridComponent
+    CalenderGridComponent,
+    GridFactoryComponent
   ],
   imports: [
     BrowserModule,

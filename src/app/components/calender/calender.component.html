@@ -1,4 +1,4 @@
 <div class="calender_container" *ngFor="let month of months;">
   <div class="name">{{month.name}}</div>
-  <app-calender-grid [month]=month></app-calender-grid>
+  <app-calender-grid [monthData]="month"></app-calender-grid>
 </div>

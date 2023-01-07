@@ -15,6 +15,7 @@ export class DayComponent implements OnInit {
   reminders: Reminder[] = {} as Reminder[];
 
   day?: number; // the day text
+  isLiveComponent: boolean = false;
 
   ngOnInit(): void {
   }
