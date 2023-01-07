@@ -15,6 +15,7 @@ export class CalenderComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    // get the month data from the REST-API using the ui service
     this.uiService.getMonths().subscribe((months) => {
       this.months = months;
       console.log(this.months);

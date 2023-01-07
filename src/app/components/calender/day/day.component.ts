@@ -6,12 +6,15 @@ import {Holiday, Event, Reminder} from "../interfaces";
   templateUrl: './day.component.html',
   styleUrls: ['./day.component.less']
 })
-export class DayComponent implements OnInit{
+/**
+ * Component representing a day
+ */
+export class DayComponent implements OnInit {
   holidays: Holiday[] = {} as Holiday[];
   events: Event[] = {} as Event[];
   reminders: Reminder[] = {} as Reminder[];
 
-  day: number = -1;
+  day?: number; // the day text
 
   ngOnInit(): void {
   }
